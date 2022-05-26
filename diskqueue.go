@@ -49,7 +49,8 @@ func Start() (*Diskqueue, error) {
 			queue.Unlock()
 		}
 	}()
-	return queue
+
+	return queue, nil
 }
 
 // Write data
