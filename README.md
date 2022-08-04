@@ -14,7 +14,7 @@ Disk-based FIFO queue
 ## Getting Started
 
 ```
-go get -u github.com/yoonper/diskqueue
+go get -u github.com/4x99/diskqueue
 ```
 
 ```
@@ -22,7 +22,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/yoonper/diskqueue"
+	"github.com/4x99/diskqueue"
 	"log"
 	"time"
 )
